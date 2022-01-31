@@ -2,7 +2,6 @@ import { SvelteComponentTyped } from "svelte";
 declare const __propDef: {
     props: {
         darkMode?: boolean;
-        url?: string;
     };
     events: {
         [evt: string]: CustomEvent<any>;
